@@ -35,6 +35,5 @@ getTableData.then(res => res.json())
       `;
     });
     tableBody.innerHTML += tableRows && tableRows.join('');
-  })  
-  .then(console.log)
+  })
   .catch();
